@@ -1,0 +1,22 @@
+1.Difference between http1 and http 2
+http1.0:
+status code:can define 16 status codes.
+The error prompt is not specific enough.
+Uses basic authentication scheme which is unsafe.
+Provides support for caching via the if-modified since header.
+For every TCP connection there is on;y one request and one response.
+
+Http2:
+Uses multiplexing,where over a single tcp connection resources to be delivered.
+Underlying semantics of http such as header,status code remain the same.
+upagrade in security measures.
+caching is almost same as http1.
+To reduce taffic in the page http 2 uses multiplexing and server push.
+
+2.Objects and its internal representation in JS
+-Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+-objects in JS are unorderd collection of related data.
+Properties and object
+-a property of an object can be explained as avariable that is attached to the object.
+-objects are case sensitive.
+-unassigned properties of an object are undefined and not null.
